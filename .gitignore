@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data (keep only the placeholder)
+data/*
+!data/.gitkeep
+
+# Video / audio files
+*.mp4
+*.wav
+*.mkv
+
+# OS
+.DS_Store
